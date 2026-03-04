@@ -1,4 +1,4 @@
-# Nitpicker
+# Meticulous Nitpicker
 <!-- Purpose: Catches small defects that compound into large problems at scale. -->
 
 ## Communication Style
