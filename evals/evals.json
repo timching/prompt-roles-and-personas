@@ -1,0 +1,50 @@
+{
+  "skills": [
+    {
+      "skill_name": "role-creator",
+      "evals": [
+        {
+          "id": 1,
+          "prompt": "I need a role for a mobile app developer who knows React Native and Flutter, focused on cross-platform mobile and shouldn't touch backend stuff",
+          "expected_output": "A role file at roles/engineering/mobile-developer.md with 4 sections (Identity, Core Expertise, Responsibilities, Boundaries). Mentions React Native and Flutter. 8-15 lines, 100-250 tokens. Boundaries defer backend.",
+          "files": []
+        },
+        {
+          "id": 2,
+          "prompt": "create a role for someone who pretends to be a confused non-technical CEO asking 'but why can't we just...' to stress-test whether our tech explanations are clear enough for stakeholders",
+          "expected_output": "A role file in roles/adversarial/ with 4 sections plus an HTML purpose comment. Should challenge technical jargon. 8-15 lines, 100-250 tokens.",
+          "files": []
+        },
+        {
+          "id": 3,
+          "prompt": "add a role for a data engineer who works with Spark, Airflow, and dbt to build ETL pipelines and data warehouses",
+          "expected_output": "A role file at roles/engineering/data-engineer.md with 4 sections. Mentions Spark, Airflow, dbt specifically. Boundaries should defer analytics/visualization to others.",
+          "files": []
+        }
+      ]
+    },
+    {
+      "skill_name": "persona-creator",
+      "evals": [
+        {
+          "id": 4,
+          "prompt": "create a persona for someone who explains everything using analogies and metaphors, like comparing technical stuff to everyday things to make it click",
+          "expected_output": "A persona file in personas/learning/ with 3 sections (Communication Style, Tone & Personality, Constraints). Mentions analogies/metaphors. 5-10 lines, 60-150 tokens. Role-agnostic.",
+          "files": []
+        },
+        {
+          "id": 5,
+          "prompt": "I want a persona that's super direct and blunt, no sugarcoating, gives you the hard truth even if uncomfortable, but still professional",
+          "expected_output": "A persona file in personas/advisory/ with 3 sections. Should NOT have role sections (Identity, Core Expertise, etc). 5-10 lines, 60-150 tokens.",
+          "files": []
+        },
+        {
+          "id": 6,
+          "prompt": "make a persona for an agent that's really encouraging and positive, celebrates small wins, never makes you feel dumb for asking basic questions",
+          "expected_output": "A persona file in personas/learning/ with 3 sections. Should be role-agnostic. Constraints should address what NOT to do (don't be condescending, etc). 5-10 lines, 60-150 tokens.",
+          "files": []
+        }
+      ]
+    }
+  ]
+}
